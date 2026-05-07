@@ -163,7 +163,7 @@ for wheel in wheels:
 # Move arm down
 delta_angulo = 0.15
 
-# arm4 -> posição 0
+# arm4 
 armMotors[3].setPosition(0)
 
 while robot.step(timestep) != -1:
